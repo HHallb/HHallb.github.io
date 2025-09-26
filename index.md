@@ -13,21 +13,26 @@ document.addEventListener('DOMContentLoaded', function() {
             firstH1.style.display = 'none';
         }
     }
-    
-    // Style the Welcome heading to match other page titles
-    const welcomeHeading = document.querySelector('h1');
-    if (welcomeHeading && welcomeHeading.textContent.includes('Welcome')) {
-        welcomeHeading.style.fontSize = '2rem';
-        welcomeHeading.style.fontWeight = '400';
-        welcomeHeading.style.letterSpacing = '-1px';
-        welcomeHeading.style.marginBottom = '30px';
-        welcomeHeading.style.marginTop = '0';
-        welcomeHeading.style.lineHeight = '1.15';
-    }
 });
 </script>
 
+<style>
+/* Force the Welcome heading to match other page titles */
+#welcome-heading,
+h1[id*="welcome"],
+.page-content h1 {
+    font-size: 2rem !important;
+    font-weight: 400 !important;
+    letter-spacing: -1px !important;
+    margin-bottom: 30px !important;
+    margin-top: 0 !important;
+    line-height: 1.15 !important;
+    color: #111 !important;
+}
+</style>
+
 # Welcome!
+{: #welcome-heading}
 
 I work at the Division of Solid Mechanics at Lund University in Sweden. These pages present research in which I am involved and focus on numerical modeling and simulation of microstructure mechanics and microstructure evolution in crystalline materials and how this translates to macroscale material behavior. Main research topics include manifestations of plasticity at several length-scales, properties and influence of grain boundaries, recrystallization, grain growth and solid-state phase transformations. Both modeling of the physical mechanisms and implementation of efficient numerical simulation algorithms are targeted and combined with experimental materials characterization.
 
