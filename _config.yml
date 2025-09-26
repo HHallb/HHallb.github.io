@@ -76,10 +76,9 @@ url: "https://hhallb.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+theme: minima
 plugins:
   - jekyll-feed
-
-# Minima theme settings
 
 # Add navigation links
 minima:
@@ -92,8 +91,3 @@ minima:
       url: "/pyPFC/"
     - title: "Home"
       url: "/"
-
-markdown_extensions:
-  - attr_list
-  - md_in_html
-  - pymdownx.blocks.caption
