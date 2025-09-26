@@ -13,19 +13,19 @@ document.addEventListener('DOMContentLoaded', function() {
             firstH1.style.display = 'none';
         }
     }
+    
+    // Style the Welcome heading to match other page titles
+    const welcomeHeading = document.querySelector('h1');
+    if (welcomeHeading && welcomeHeading.textContent.includes('Welcome')) {
+        welcomeHeading.style.fontSize = '2rem';
+        welcomeHeading.style.fontWeight = '400';
+        welcomeHeading.style.letterSpacing = '-1px';
+        welcomeHeading.style.marginBottom = '30px';
+        welcomeHeading.style.marginTop = '0';
+        welcomeHeading.style.lineHeight = '1.15';
+    }
 });
 </script>
-
-<style>
-/* Make Welcome heading consistent with other page titles */
-.page-content h1:not([style*="display: none"]) {
-    font-size: 2rem;
-    font-weight: 400;
-    letter-spacing: -1px;
-    margin-bottom: 30px;
-    margin-top: 0;
-}
-</style>
 
 # Welcome!
 
