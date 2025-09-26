@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "News"
+title: "Posts"
 permalink: /blog/
 ---
 
