@@ -74,12 +74,12 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hhallb.github.io" # the base hostname & protocol for your site
 
-theme: minima
-
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+# Minima theme settings
 
 # Add navigation links
 minima:
