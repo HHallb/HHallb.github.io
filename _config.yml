@@ -67,7 +67,7 @@
 
 title: Computational Microstructure Mechanics
 author: Håkan Hallberg
-email: hakan.hallb@protonmail.com
+email: 
 description: >-
   Phase Field Crystal, Level Set, FEM, Grain Growth, Recrystallization, Grain Boundaries, Microstructure Mechanics, Phase Transformations, Metals, Ceramics, Python, Fortran
 
@@ -79,6 +79,10 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+# Hide RSS feed link from site
+minima:
+  hide_site_feed_link: true
 
 # Add navigation links in specific order
 header_pages:
