@@ -1,16 +1,6 @@
 ---
 layout: page
-title: Home
 ---
-
-<style>
-.page-header .page-title {
-  display: none;
-}
-h1.page-title {
-  display: none;
-}
-</style>
 
 # Welcome!
 
