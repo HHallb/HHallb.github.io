@@ -10,7 +10,7 @@ permalink: /pyPFC/
 }
 </style>
 
-# pyPFC: An Open-Source Python Package for Phase Field Crystal Simulations
+# An Open-Source Python Package for Phase Field Crystal Simulations
 
 pyPFC is a comprehensive open-source Python package for setting up, running and analyzing 3D phase field crystal (PFC) simulations. The object-oriented code is designed to take full advantage of GPU acceleration, but can also be ran on purely CPU-based systems. The overarching ambition with the pyPFC package is to provide an easily accessible and computationally efficient PFC simulation framework, suitable for algorithm and method development and for those interested in making their first experiments with PFC, while also being versatile and powerful enough for more demanding scientific investigations.
 
