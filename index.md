@@ -1,6 +1,20 @@
 ---
 layout: page
+title: Home
 ---
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Find and hide the auto-generated page title that says "Home"
+    const pageContent = document.querySelector('.page-content');
+    if (pageContent) {
+        const firstH1 = pageContent.querySelector('h1');
+        if (firstH1 && firstH1.textContent.trim() === 'Home') {
+            firstH1.style.display = 'none';
+        }
+    }
+});
+</script>
 
 # Welcome!
 
