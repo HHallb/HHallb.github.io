@@ -80,14 +80,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Add navigation links
-minima:
-  navigation:
-    - title: "About"
-      url: "/about/"
-    - title: "News"
-      url: "/blog/"
-    - title: "pyPFC"
-      url: "/pyPFC/"
-    - title: "Home"
-      url: "/"
+# Add navigation links in specific order
+header_pages:
+  - about.md
+  - blog.md
+  - pyPFC.md
+  - index.md
