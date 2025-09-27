@@ -16,6 +16,32 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+<style>
+/* Style the image grid */
+table {
+    border: none;
+    width: 100%;
+    margin: 20px 0;
+}
+table td {
+    border: none;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+}
+table img {
+    max-width: 100%;
+    height: auto;
+}
+/* Style the spanning image */
+.page-content img[alt="Metal foam"] {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
+</style>
+
 # **Welcome!**
 
 Here, I present ongoing research focused on numerical modeling and simulation of microstructure mechanics and evolution in crystalline materials, and how these phenomena influence macroscale material behavior.
@@ -30,7 +56,8 @@ This work combines modeling of physical mechanisms with the development of effic
 
 ![PFC](/images/pfc_atoms.png)             | ![FE mesh](/images/grainMesh.png) |
 ![Deep drawing](/images/deep_drawing.png) | ![CA](/images/ca.png)             |
-[Metal foam](/images/metal_foam.png)             
+
+![Metal foam](/images/metal_foam.png)
 
 ## News
 
