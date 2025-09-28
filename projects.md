@@ -132,7 +132,7 @@ permalink: /projects/
     </div>
   </div>
 
-  <a href="/rex_gg/" class="project-link">
+  <a href="/pyPFC/" class="project-link">
     <div class="project-card">
       <img src="/images/ca.png" alt="Recrystallization and Grain Growth" class="project-image">
       <div class="project-content">
@@ -167,7 +167,7 @@ permalink: /projects/
       </div>
     </div>
   </a>
-  
+
   <div class="project-card">
     <img src="/images/deep_drawing.png" alt="Metal Forming" class="project-image">
     <div class="project-content">
