@@ -64,6 +64,21 @@ permalink: /projects/
   margin-right: 5px;
   margin-bottom: 5px;
 }
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card {
+  cursor: pointer;
+}
 </style>
 
 <div class="projects-grid">
@@ -83,21 +98,23 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-card">
-    <img src="/images/pfc_atoms.png" alt="pyPFC" class="project-image">
-    <div class="project-content">
-      <h3 class="project-title">pyPFC</h3>
-      <p class="project-description">
-        An open-source Python package for phase field crystal simulations. Object-oriented code designed for GPU acceleration, suitable for algorithm development and scientific investigations.
-      </p>
-      <div class="project-tags">
-        <span class="tag">Python</span>
-        <span class="tag">GPU Computing</span>
-        <span class="tag">Phase Field</span>
-        <span class="tag">Open Source</span>
+  <a href="/pyPFC/" class="project-link">
+    <div class="project-card">
+      <img src="/images/pfc_atoms.png" alt="pyPFC" class="project-image">
+      <div class="project-content">
+        <h3 class="project-title">pyPFC</h3>
+        <p class="project-description">
+          An open-source Python package for phase field crystal simulations. Object-oriented code designed for GPU acceleration, suitable for algorithm development and scientific investigations.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">GPU Computing</span>
+          <span class="tag">Phase Field Crystal</span>
+          <span class="tag">Open Source</span>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
 
   <div class="project-card">
     <img src="/images/grainMesh.png" alt="Grain Boundary Mechanics" class="project-image">
@@ -119,12 +136,14 @@ permalink: /projects/
     <div class="project-content">
       <h3 class="project-title">Metal Forming Processes</h3>
       <p class="project-description">
-        Computational modeling of metal forming processes, including deep drawing and other manufacturing operations. Integration of microstructure evolution with process simulation.
+        Computational modeling of metal forming processes, such as deep drawing and forging. Integration of microstructure evolution with process simulation.
       </p>
       <div class="project-tags">
         <span class="tag">Manufacturing</span>
         <span class="tag">Process Simulation</span>
         <span class="tag">Plasticity</span>
+        <span class="tag">Forming</span>
+        <span class="tag">Forging</span>
       </div>
     </div>
   </div>
