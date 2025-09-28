@@ -132,7 +132,7 @@ permalink: /projects/
     </div>
   </div>
 
-  <a href="/pyPFC/" class="project-link">
+  <a href="/rex_gg/" class="project-link">
     <div class="project-card">
       <img src="/images/ca.png" alt="Recrystallization and Grain Growth" class="project-image">
       <div class="project-content">
