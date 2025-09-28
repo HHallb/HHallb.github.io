@@ -4,18 +4,128 @@ title: Projects
 permalink: /projects/
 ---
 
-## Metal Foams
+<style>
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin: 30px 0;
+}
 
-![Metal foam](/images/metal_foam_collage.png)
+.project-card {
+  background: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
-Combining synchrotron-based tomography and diffraction measurements with numerical simulations of microstructure evolution.
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
 
----
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
 
-## pyPFC
+.project-content {
+  padding: 20px;
+}
 
-![PFC](/images/pfc_atoms.png) 
+.project-title {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  color: #0366d6;
+}
 
-An open-source Python package for phase field crystal simulations.
+.project-description {
+  color: #586069;
+  line-height: 1.5;
+  margin: 0;
+}
 
----
+.project-tags {
+  margin-top: 15px;
+}
+
+.tag {
+  display: inline-block;
+  background: #f1f8ff;
+  color: #0366d6;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+</style>
+
+<div class="projects-grid">
+  <div class="project-card">
+    <img src="/images/metal_foam_collage.png" alt="Metal Foams" class="project-image">
+    <div class="project-content">
+      <h3 class="project-title">Metal Foams</h3>
+      <p class="project-description">
+        Combining synchrotron-based tomography and diffraction measurements with numerical simulations to understand the mechanical behavior and microstructure evolution of metal foams.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Finite Element</span>
+        <span class="tag">Microstructure</span>
+        <span class="tag">Synchrotron</span>
+        <span class="tag">Tomography</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/pfc_atoms.png" alt="pyPFC" class="project-image">
+    <div class="project-content">
+      <h3 class="project-title">pyPFC</h3>
+      <p class="project-description">
+        An open-source Python package for phase field crystal simulations. Object-oriented code designed for GPU acceleration, suitable for algorithm development and scientific investigations.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Python</span>
+        <span class="tag">GPU Computing</span>
+        <span class="tag">Phase Field</span>
+        <span class="tag">Open Source</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/grainMesh.png" alt="Grain Boundary Mechanics" class="project-image">
+    <div class="project-content">
+      <h3 class="project-title">Grain Boundary Mechanics</h3>
+      <p class="project-description">
+        Numerical modeling of grain boundary behavior in polycrystalline materials, focusing on the mechanical properties and influence of grain boundaries on material response.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Grain Boundaries</span>
+        <span class="tag">Polycrystals</span>
+        <span class="tag">Computational Mechanics</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/deep_drawing.png" alt="Metal Forming" class="project-image">
+    <div class="project-content">
+      <h3 class="project-title">Metal Forming Processes</h3>
+      <p class="project-description">
+        Computational modeling of metal forming processes, including deep drawing and other manufacturing operations. Integration of microstructure evolution with process simulation.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Manufacturing</span>
+        <span class="tag">Process Simulation</span>
+        <span class="tag">Plasticity</span>
+      </div>
+    </div>
+  </div>
+</div>
