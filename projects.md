@@ -125,8 +125,41 @@ permalink: /projects/
       </p>
       <div class="project-tags">
         <span class="tag">Grain Boundaries</span>
+        <span class="tag">Grain Boundary Junctions</span>
         <span class="tag">Polycrystals</span>
         <span class="tag">Computational Mechanics</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/ca.png" alt="Recrystallization and Grain Growth" class="project-image">
+    <div class="project-content">
+      <h3 class="project-title">Recrystallization and Grain Growth</h3>
+      <p class="project-description">
+        Numerical modeling of recrystallization and grain growth by different approaches.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Recrystallization</span>
+        <span class="tag">Grain Growth</span>
+        <span class="tag">Nucleation</span>
+        <span class="tag">Grain Boundaries</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/transformation_surface.png" alt="Phase Transformation" class="project-image">
+    <div class="project-content">
+      <h3 class="project-title">Phase Transformation</h3>
+      <p class="project-description">
+        Numerical modeling of phase transformations by different approaches.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Recrystallization</span>
+        <span class="tag">Grain Growth</span>
+        <span class="tag">Nucleation</span>
+        <span class="tag">Grain Boundaries</span>
       </div>
     </div>
   </div>
