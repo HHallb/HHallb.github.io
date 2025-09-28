@@ -17,13 +17,7 @@ permalink: /projects/
   border: 1px solid #e1e4e8;
   border-radius: 8px;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.project-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .project-image {
@@ -76,21 +70,6 @@ permalink: /projects/
   font-size: 0.8em;
   margin-right: 5px;
   margin-bottom: 5px;
-}
-
-.project-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
-
-.project-link:hover {
-  text-decoration: none;
-  color: inherit;
-}
-
-.project-card {
-  cursor: pointer;
 }
 </style>
 
