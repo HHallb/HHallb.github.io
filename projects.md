@@ -150,22 +150,24 @@ permalink: /projects/
     </div>
   </a>
 
-  <div class="project-card">
-    <img src="/images/transformation_surface.png" alt="Phase Transformation" class="project-image">
-    <div class="project-content">
-      <h3 class="project-title">Phase Transformation</h3>
-      <p class="project-description">
-        Numerical modeling of phase transformations by different approaches.
-      </p>
-      <div class="project-tags">
-        <span class="tag">Recrystallization</span>
-        <span class="tag">Grain Growth</span>
-        <span class="tag">Nucleation</span>
-        <span class="tag">Grain Boundaries</span>
+  <a href="/phase_trans/" class="project-link">
+    <div class="project-card">
+      <img src="/images/transformation_surface.png" alt="Phase Transformation" class="project-image">
+      <div class="project-content">
+        <h3 class="project-title">Phase Transformation</h3>
+        <p class="project-description">
+          Numerical modeling of phase transformations by different approaches.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Recrystallization</span>
+          <span class="tag">Grain Growth</span>
+          <span class="tag">Nucleation</span>
+          <span class="tag">Grain Boundaries</span>
+        </div>
       </div>
     </div>
-  </div>
-
+  </a>
+  
   <div class="project-card">
     <img src="/images/deep_drawing.png" alt="Metal Forming" class="project-image">
     <div class="project-content">
