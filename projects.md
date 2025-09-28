@@ -44,14 +44,17 @@ permalink: /projects/
   color: #000000 !important;
 }
 
-.project-title a {
+.project-title a,
+.project-title a:link,
+.project-title a:visited {
   color: #000000 !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
-.project-title a:hover {
+.project-title a:hover,
+.project-title a:active {
   color: #0366d6 !important;
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 .project-description {
