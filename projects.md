@@ -4,17 +4,17 @@ title: Projects
 permalink: /projects/
 ---
 
-## Current Projects
+## Metal Foams
 
-### Metal Foams
+![Metal foam](/images/metal_foam_collage.png)
+
 Description of computational methods development.
-
-![Metal foam](/images/meatl_foam_collage.png)
 
 ---
 
-### pyPFC
-[Link to pyPFC page](/pyPFC/)
+## pyPFC
+
+![PFC](/images/pfc_atoms.png) 
 
 An open-source Python package for phase field crystal simulations.
 
