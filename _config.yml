@@ -88,5 +88,6 @@ minima:
 # Add navigation links in specific order
 header_pages:
   - about.md
+  - projects.md
   - blog.md
   - pyPFC.md
