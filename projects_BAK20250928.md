@@ -41,7 +41,7 @@ permalink: /projects/
   font-size: 1.4em;
   font-weight: 600;
   margin: 0 0 10px 0;
-  color: #000000;
+  color: #0366d6;
 }
 
 .project-description {
@@ -132,23 +132,21 @@ permalink: /projects/
     </div>
   </div>
 
-  <a href="/rex_gg/" class="project-link">
-    <div class="project-card">
-      <img src="/images/ca.png" alt="Recrystallization and Grain Growth" class="project-image">
-      <div class="project-content">
-        <h3 class="project-title">Recrystallization and Grain Growth</h3>
-        <p class="project-description">
-          Numerical modeling of recrystallization and grain growth by different approaches.
-        </p>
-        <div class="project-tags">
-          <span class="tag">Recrystallization</span>
-          <span class="tag">Grain Growth</span>
-          <span class="tag">Nucleation</span>
-          <span class="tag">Grain Boundaries</span>
-        </div>
+  <div class="project-card">
+    <img src="/images/ca.png" alt="Recrystallization and Grain Growth" class="project-image">
+    <div class="project-content">
+      <h3 class="project-title">Recrystallization and Grain Growth</h3>
+      <p class="project-description">
+        Numerical modeling of recrystallization and grain growth by different approaches.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Recrystallization</span>
+        <span class="tag">Grain Growth</span>
+        <span class="tag">Nucleation</span>
+        <span class="tag">Grain Boundaries</span>
       </div>
     </div>
-  </a>
+  </div>
 
   <div class="project-card">
     <img src="/images/transformation_surface.png" alt="Phase Transformation" class="project-image">
