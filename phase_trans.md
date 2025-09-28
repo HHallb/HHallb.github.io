@@ -4,7 +4,7 @@ title: Phase Transformation
 permalink: /phase_trans/
 ---
 
-# Recrystallization and Grain Growth
+# Phase Transformation
 
 ![Transformation surface](/images/transformation_surface.png)
 
