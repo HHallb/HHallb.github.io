@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Welcome
 ---
 
@@ -15,4 +15,3 @@ This work combines modeling of physical mechanisms with the development of effic
 
 ![PFC](/images/pfc_atoms.png)             | ![FE mesh](/images/grainMesh.png) |
 ![Deep drawing](/images/deep_drawing.png) | ![CA](/images/ca.png)             |
-

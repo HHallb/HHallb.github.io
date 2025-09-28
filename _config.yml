@@ -83,6 +83,7 @@ plugins:
 # Hide RSS feed link from site
 minima:
   hide_site_feed_link: true
+  show_excerpts: true
 
 # Add navigation links in specific order
 header_pages:
