@@ -8,7 +8,7 @@ permalink: /projects/
 
 ![Metal foam](/images/metal_foam_collage.png)
 
-Description of computational methods development.
+Combining synchrotron-based tomography and diffraction measurements with numerical simulations of microstructure evolution.
 
 ---
 

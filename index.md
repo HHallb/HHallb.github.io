@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Welcome
 ---
 
 Here, I present ongoing research focused on numerical modeling and simulation of microstructure mechanics and evolution in crystalline materials, and how these phenomena influence macroscale material behavior.
