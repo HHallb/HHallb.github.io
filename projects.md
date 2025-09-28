@@ -41,7 +41,17 @@ permalink: /projects/
   font-size: 1.4em;
   font-weight: 600;
   margin: 0 0 10px 0;
-  color: #000000;
+  color: #000000 !important;
+}
+
+.project-title a {
+  color: #000000 !important;
+  text-decoration: none;
+}
+
+.project-title a:hover {
+  color: #0366d6 !important;
+  text-decoration: underline;
 }
 
 .project-description {
@@ -98,23 +108,21 @@ permalink: /projects/
     </div>
   </div>
 
-  <a href="/pyPFC/" class="project-link">
-    <div class="project-card">
-      <img src="/images/pfc_atoms.png" alt="pyPFC" class="project-image">
-      <div class="project-content">
-        <h3 class="project-title">pyPFC</h3>
-        <p class="project-description">
-          An open-source Python package for phase field crystal simulations. Object-oriented code designed for GPU acceleration, suitable for algorithm development and scientific investigations.
-        </p>
-        <div class="project-tags">
-          <span class="tag">Python</span>
-          <span class="tag">GPU Computing</span>
-          <span class="tag">Phase Field Crystal</span>
-          <span class="tag">Open Source</span>
-        </div>
+  <div class="project-card">
+    <img src="/images/pfc_atoms.png" alt="pyPFC" class="project-image">
+    <div class="project-content">
+      <h3 class="project-title"><a href="/pyPFC/">pyPFC</a></h3>
+      <p class="project-description">
+        An open-source Python package for phase field crystal simulations. Object-oriented code designed for GPU acceleration, suitable for algorithm development and scientific investigations.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Python</span>
+        <span class="tag">GPU Computing</span>
+        <span class="tag">Phase Field Crystal</span>
+        <span class="tag">Open Source</span>
       </div>
     </div>
-  </a>
+  </div>
 
   <div class="project-card">
     <img src="/images/grainMesh.png" alt="Grain Boundary Mechanics" class="project-image">
@@ -132,41 +140,37 @@ permalink: /projects/
     </div>
   </div>
 
-  <a href="/rex_gg_new/" class="project-link">
-    <div class="project-card">
-      <img src="/images/ca.png" alt="Recrystallization and Grain Growth" class="project-image">
-      <div class="project-content">
-        <h3 class="project-title">Recrystallization and Grain Growth</h3>
-        <p class="project-description">
-          Numerical modeling of recrystallization and grain growth by different approaches.
-        </p>
-        <div class="project-tags">
-          <span class="tag">Recrystallization</span>
-          <span class="tag">Grain Growth</span>
-          <span class="tag">Nucleation</span>
-          <span class="tag">Grain Boundaries</span>
-        </div>
+  <div class="project-card">
+    <img src="/images/ca.png" alt="Recrystallization and Grain Growth" class="project-image">
+    <div class="project-content">
+      <h3 class="project-title"><a href="/rex_gg/">Recrystallization and Grain Growth</a></h3>
+      <p class="project-description">
+        Numerical modeling of recrystallization and grain growth by different approaches.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Recrystallization</span>
+        <span class="tag">Grain Growth</span>
+        <span class="tag">Nucleation</span>
+        <span class="tag">Grain Boundaries</span>
       </div>
     </div>
-  </a>
+  </div>
 
-  <a href="/phase_trans/" class="project-link">
-    <div class="project-card">
-      <img src="/images/transformation_surface.png" alt="Phase Transformation" class="project-image">
-      <div class="project-content">
-        <h3 class="project-title">Phase Transformation</h3>
-        <p class="project-description">
-          Numerical modeling of phase transformations by different approaches.
-        </p>
-        <div class="project-tags">
-          <span class="tag">Recrystallization</span>
-          <span class="tag">Grain Growth</span>
-          <span class="tag">Nucleation</span>
-          <span class="tag">Grain Boundaries</span>
-        </div>
+  <div class="project-card">
+    <img src="/images/transformation_surface.png" alt="Phase Transformation" class="project-image">
+    <div class="project-content">
+      <h3 class="project-title"><a href="/phase_trans/">Phase Transformation</a></h3>
+      <p class="project-description">
+        Numerical modeling of phase transformations by different approaches.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Recrystallization</span>
+        <span class="tag">Grain Growth</span>
+        <span class="tag">Nucleation</span>
+        <span class="tag">Grain Boundaries</span>
       </div>
     </div>
-  </a>
+  </div>
 
   <div class="project-card">
     <img src="/images/deep_drawing.png" alt="Metal Forming" class="project-image">
