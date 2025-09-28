@@ -41,7 +41,7 @@ permalink: /projects/
   font-size: 1.4em;
   font-weight: 600;
   margin: 0 0 10px 0;
-  color: #0366d6;
+  color: #000000;
 }
 
 .project-description {
