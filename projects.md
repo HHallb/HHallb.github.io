@@ -132,7 +132,7 @@ permalink: /projects/
     </div>
   </div>
 
-  <a href="/test_rex/" class="project-link">
+  <a href="/rex_gg_new/" class="project-link">
     <div class="project-card">
       <img src="/images/ca.png" alt="Recrystallization and Grain Growth" class="project-image">
       <div class="project-content">
