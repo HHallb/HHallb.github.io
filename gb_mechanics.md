@@ -4,7 +4,7 @@ title: Grain Boundary Mechanics
 permalink: /gb_mechanics/
 ---
 
-![Grain mesh](/images/grain_mesh.png)
+![Grain mesh](/images/grainMesh.png)
 
 ## References
 
