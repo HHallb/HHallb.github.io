@@ -7,7 +7,23 @@ permalink: /projects/
 <style>
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto  <a href="/phase_trans/" style="text-decoration: none; color: inherit; display: block;">
+    <div class="project-card" style="cursor: pointer;">
+      <img src="/images/transformation_surface.png" alt="Phase Transformation" class="project-image">
+      <div class="project-content">
+        <h3 class="project-title" style="color: #000000 !important;">Phase Transformation</h3>
+        <p class="project-description">
+          Numerical modeling of phase transformations by different approaches.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Recrystallization</span>
+          <span class="tag">Grain Growth</span>
+          <span class="tag">Nucleation</span>
+          <span class="tag">Grain Boundaries</span>
+        </div>
+      </div>
+    </div>
+  </a>0px, 1fr));
   gap: 30px;
   margin: 30px 0;
 }
@@ -90,21 +106,23 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-card" onclick="window.open('/pyPFC/', '_self')" style="cursor: pointer;">
-    <img src="/images/pfc_atoms.png" alt="pyPFC" class="project-image">
-    <div class="project-content">
-      <h3 class="project-title" style="color: #000000 !important;">pyPFC</h3>
-      <p class="project-description">
-        An open-source Python package for phase field crystal simulations. Object-oriented code designed for GPU acceleration, suitable for algorithm development and scientific investigations.
-      </p>
-      <div class="project-tags">
-        <span class="tag">Python</span>
-        <span class="tag">GPU Computing</span>
-        <span class="tag">Phase Field Crystal</span>
-        <span class="tag">Open Source</span>
+  <a href="/pyPFC/" style="text-decoration: none; color: inherit; display: block;">
+    <div class="project-card" style="cursor: pointer;">
+      <img src="/images/pfc_atoms.png" alt="pyPFC" class="project-image">
+      <div class="project-content">
+        <h3 class="project-title" style="color: #000000 !important;">pyPFC</h3>
+        <p class="project-description">
+          An open-source Python package for phase field crystal simulations. Object-oriented code designed for GPU acceleration, suitable for algorithm development and scientific investigations.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">GPU Computing</span>
+          <span class="tag">Phase Field Crystal</span>
+          <span class="tag">Open Source</span>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
 
   <div class="project-card">
     <img src="/images/grainMesh.png" alt="Grain Boundary Mechanics" class="project-image">
@@ -122,21 +140,23 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-card" onclick="window.open('/rex_gg/', '_self')" style="cursor: pointer;">
-    <img src="/images/ca.png" alt="Recrystallization and Grain Growth" class="project-image">
-    <div class="project-content">
-      <h3 class="project-title" style="color: #000000 !important;">Recrystallization and Grain Growth</h3>
-      <p class="project-description">
-        Numerical modeling of recrystallization and grain growth by different approaches.
-      </p>
-      <div class="project-tags">
-        <span class="tag">Recrystallization</span>
-        <span class="tag">Grain Growth</span>
-        <span class="tag">Nucleation</span>
-        <span class="tag">Grain Boundaries</span>
+  <a href="/rex_gg/" style="text-decoration: none; color: inherit; display: block;">
+    <div class="project-card" style="cursor: pointer;">
+      <img src="/images/ca.png" alt="Recrystallization and Grain Growth" class="project-image">
+      <div class="project-content">
+        <h3 class="project-title" style="color: #000000 !important;">Recrystallization and Grain Growth</h3>
+        <p class="project-description">
+          Numerical modeling of recrystallization and grain growth by different approaches.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Recrystallization</span>
+          <span class="tag">Grain Growth</span>
+          <span class="tag">Nucleation</span>
+          <span class="tag">Grain Boundaries</span>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
 
   <div class="project-card" onclick="window.open('/phase_trans/', '_self')" style="cursor: pointer;">
     <img src="/images/transformation_surface.png" alt="Phase Transformation" class="project-image">
