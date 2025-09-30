@@ -164,11 +164,11 @@ permalink: /projects/
   </a>
 
   <div class="project-card">
-    <img src="/images/deep_drawing.png" alt="Metal Forming" class="project-image">
+    <img src="/images/deep_drawing.png" alt="Materials Processing" class="project-image">
     <div class="project-content">
       <h3 class="project-title">Metal Forming Processes</h3>
       <p class="project-description">
-        Computational modeling of metal forming processes, such as deep drawing and forging. Integration of microstructure evolution with process simulation.
+        Computational modeling of materials processes, mainly related to metals. Deep drawing and forging, as well as laser annealing and laser peening. Integration of microstructure evolution with process simulation.
       </p>
       <div class="project-tags">
         <span class="tag">Manufacturing</span>

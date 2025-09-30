@@ -4,8 +4,6 @@ title: Recrystallization and Grain Growth
 permalink: /rex_gg/
 ---
 
-# Recrystallization and Grain Growth
-
 Numerical modeling of recrystallization and grain growth by different approaches.
 
 ![CA](/images/ca.png)
