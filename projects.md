@@ -7,25 +7,31 @@ permalink: /projects/
 <style>
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto  <a href="/phase_trans/" style="text-decoration: none; color: inherit; display: block;">
-    <div class="project-card" style="cursor: pointer;">
-      <img src="/images/transformation_surface.png" alt="Phase Transformation" class="project-image">
-      <div class="project-content">
-        <h3 class="project-title" style="color: #000000 !important;">Phase Transformation</h3>
-        <p class="project-description">
-          Numerical modeling of phase transformations by different approaches.
-        </p>
-        <div class="project-tags">
-          <span class="tag">Recrystallization</span>
-          <span class="tag">Grain Growth</span>
-          <span class="tag">Nucleation</span>
-          <span class="tag">Grain Boundaries</span>
-        </div>
-      </div>
-    </div>
-  </a>0px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
   margin: 30px 0;
+}
+
+.projects-grid > a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .project-card {
@@ -106,8 +112,8 @@ permalink: /projects/
     </div>
   </div>
 
-  <a href="/pyPFC/" style="text-decoration: none; color: inherit; display: block;">
-    <div class="project-card" style="cursor: pointer;">
+  <a href="/pyPFC/">
+    <div class="project-card">
       <img src="/images/pfc_atoms.png" alt="pyPFC" class="project-image">
       <div class="project-content">
         <h3 class="project-title" style="color: #000000 !important;">pyPFC</h3>
@@ -140,8 +146,8 @@ permalink: /projects/
     </div>
   </div>
 
-  <a href="/rex_gg/" style="text-decoration: none; color: inherit; display: block;">
-    <div class="project-card" style="cursor: pointer;">
+  <a href="/rex_gg/">
+    <div class="project-card">
       <img src="/images/ca.png" alt="Recrystallization and Grain Growth" class="project-image">
       <div class="project-content">
         <h3 class="project-title" style="color: #000000 !important;">Recrystallization and Grain Growth</h3>
@@ -158,21 +164,23 @@ permalink: /projects/
     </div>
   </a>
 
-  <div class="project-card" onclick="window.open('/phase_trans/', '_self')" style="cursor: pointer;">
-    <img src="/images/transformation_surface.png" alt="Phase Transformation" class="project-image">
-    <div class="project-content">
-      <h3 class="project-title" style="color: #000000 !important;">Phase Transformation</h3>
-      <p class="project-description">
-        Numerical modeling of phase transformations by different approaches.
-      </p>
-      <div class="project-tags">
-        <span class="tag">Recrystallization</span>
-        <span class="tag">Grain Growth</span>
-        <span class="tag">Nucleation</span>
-        <span class="tag">Grain Boundaries</span>
+  <a href="/phase_trans/">
+    <div class="project-card">
+      <img src="/images/transformation_surface.png" alt="Phase Transformation" class="project-image">
+      <div class="project-content">
+        <h3 class="project-title" style="color: #000000 !important;">Phase Transformation</h3>
+        <p class="project-description">
+          Numerical modeling of phase transformations by different approaches.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Recrystallization</span>
+          <span class="tag">Grain Growth</span>
+          <span class="tag">Nucleation</span>
+          <span class="tag">Grain Boundaries</span>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
 
   <div class="project-card">
     <img src="/images/deep_drawing.png" alt="Metal Forming" class="project-image">
