@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Grain Boundary Mechanics
-permalink: /rex_gg/
+permalink: /gb_mechanics/
 ---
 
 # Grain Boundary Mechanics
