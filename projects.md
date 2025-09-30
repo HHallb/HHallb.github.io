@@ -90,10 +90,10 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-card">
+  <div class="project-card" onclick="window.open('/pyPFC/', '_self')" style="cursor: pointer;">
     <img src="/images/pfc_atoms.png" alt="pyPFC" class="project-image">
     <div class="project-content">
-      <h3 class="project-title"><a href="/pyPFC/">pyPFC</a></h3>
+      <h3 class="project-title" style="color: #000000 !important;">pyPFC</h3>
       <p class="project-description">
         An open-source Python package for phase field crystal simulations. Object-oriented code designed for GPU acceleration, suitable for algorithm development and scientific investigations.
       </p>
@@ -122,10 +122,10 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-card">
+  <div class="project-card" onclick="window.open('/rex_gg/', '_self')" style="cursor: pointer;">
     <img src="/images/ca.png" alt="Recrystallization and Grain Growth" class="project-image">
     <div class="project-content">
-      <h3 class="project-title"><a href="/rex_gg/">Recrystallization and Grain Growth</a></h3>
+      <h3 class="project-title" style="color: #000000 !important;">Recrystallization and Grain Growth</h3>
       <p class="project-description">
         Numerical modeling of recrystallization and grain growth by different approaches.
       </p>
@@ -138,10 +138,10 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="project-card">
+  <div class="project-card" onclick="window.open('/phase_trans/', '_self')" style="cursor: pointer;">
     <img src="/images/transformation_surface.png" alt="Phase Transformation" class="project-image">
     <div class="project-content">
-      <h3 class="project-title"><a href="/phase_trans/">Phase Transformation</a></h3>
+      <h3 class="project-title" style="color: #000000 !important;">Phase Transformation</h3>
       <p class="project-description">
         Numerical modeling of phase transformations by different approaches.
       </p>
