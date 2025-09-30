@@ -180,6 +180,6 @@ permalink: /projects/
         </div>
       </div>
     </div>
-  </a
+  </a>
 
 </div>

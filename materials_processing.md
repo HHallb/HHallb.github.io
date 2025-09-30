@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Materials Processing
-permalink: /mater_proc/
+permalink: /materials_processing/
 ---
 
 Numerical simulations and experimental characterization of different types of materials processing, mainly related to metals.
