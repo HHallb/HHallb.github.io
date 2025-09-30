@@ -34,14 +34,6 @@ permalink: /projects/
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.project-card {
-  background: #fff;
-  border: 1px solid #e1e4e8;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
 .project-image {
   width: 100%;
   height: 200px;
@@ -58,19 +50,6 @@ permalink: /projects/
   font-weight: 600;
   margin: 0 0 10px 0;
   color: #000000 !important;
-}
-
-.project-title a,
-.project-title a:link,
-.project-title a:visited {
-  color: #000000 !important;
-  text-decoration: none !important;
-}
-
-.project-title a:hover,
-.project-title a:active {
-  color: #0366d6 !important;
-  text-decoration: underline !important;
 }
 
 .project-description {
@@ -116,7 +95,7 @@ permalink: /projects/
     <div class="project-card">
       <img src="/images/pfc_atoms.png" alt="pyPFC" class="project-image">
       <div class="project-content">
-        <h3 class="project-title" style="color: #000000 !important;">pyPFC</h3>
+        <h3 class="project-title">pyPFC</h3>
         <p class="project-description">
           An open-source Python package for phase field crystal simulations. Object-oriented code designed for GPU acceleration, suitable for algorithm development and scientific investigations.
         </p>
@@ -152,7 +131,7 @@ permalink: /projects/
     <div class="project-card">
       <img src="/images/ca.png" alt="Recrystallization and Grain Growth" class="project-image">
       <div class="project-content">
-        <h3 class="project-title" style="color: #000000 !important;">Recrystallization and Grain Growth</h3>
+        <h3 class="project-title">Recrystallization and Grain Growth</h3>
         <p class="project-description">
           Numerical modeling of recrystallization and grain growth by different approaches.
         </p>
@@ -170,7 +149,7 @@ permalink: /projects/
     <div class="project-card">
       <img src="/images/transformation_surface.png" alt="Phase Transformation" class="project-image">
       <div class="project-content">
-        <h3 class="project-title" style="color: #000000 !important;">Phase Transformation</h3>
+        <h3 class="project-title">Phase Transformation</h3>
         <p class="project-description">
           Numerical modeling of phase transformations by different approaches.
         </p>
