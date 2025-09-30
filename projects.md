@@ -130,21 +130,23 @@ permalink: /projects/
     </div>
   </a>
 
-  <div class="project-card">
-    <img src="/images/grainMesh.png" alt="Grain Boundary Mechanics" class="project-image">
-    <div class="project-content">
-      <h3 class="project-title">Grain Boundary Mechanics</h3>
-      <p class="project-description">
-        Numerical modeling of grain boundary behavior in polycrystalline materials, focusing on the mechanical properties and influence of grain boundaries on material response.
-      </p>
-      <div class="project-tags">
-        <span class="tag">Grain Boundaries</span>
-        <span class="tag">Grain Boundary Junctions</span>
-        <span class="tag">Polycrystals</span>
-        <span class="tag">Computational Mechanics</span>
+  <a href="/gb_mechanics/">
+    <div class="project-card">
+      <img src="/images/grainMesh.png" alt="Grain Boundary Mechanics" class="project-image">
+      <div class="project-content">
+        <h3 class="project-title">Grain Boundary Mechanics</h3>
+        <p class="project-description">
+          Numerical modeling of grain boundaries and grain boundary networks, using various methods and at different scales.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Grain Boundaries</span>
+          <span class="tag">Grain Boundary Junctions</span>
+          <span class="tag">Polycrystals</span>
+          <span class="tag">Computational Mechanics</span>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
 
   <a href="/rex_gg/">
     <div class="project-card">
