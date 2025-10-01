@@ -4,7 +4,7 @@ title: Experimental Work
 permalink: /experimental_work/
 ---
 
-Numerical simulations and experimental characterization of different types of materials processing, mainly related to metals.
+Synchrotron-based tomography and diffraction as well as more conventional materials characterization techniques, combined with numerical simulations.
 
 ![Metal foam collage](/images/metal_foam_collage.png)
 
