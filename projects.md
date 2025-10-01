@@ -75,21 +75,7 @@ permalink: /projects/
 </style>
 
 <div class="projects-grid">
-  <div class="project-card">
-    <img src="/images/metal_foam_collage.png" alt="Metal Foams" class="project-image">
-    <div class="project-content">
-      <h3 class="project-title">Metal Foams</h3>
-      <p class="project-description">
-        Combining synchrotron-based tomography and diffraction measurements with numerical simulations to understand the mechanical behavior and microstructure evolution of metal foams.
-      </p>
-      <div class="project-tags">
-        <span class="tag">Finite Element</span>
-        <span class="tag">Microstructure</span>
-        <span class="tag">Synchrotron</span>
-        <span class="tag">Tomography</span>
-      </div>
-    </div>
-  </div>
+
 
   <a href="/pyPFC/">
     <div class="project-card">
@@ -177,6 +163,26 @@ permalink: /projects/
           <span class="tag">Plasticity</span>
           <span class="tag">Forming</span>
           <span class="tag">Forging</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/experimental_work/">
+    <div class="project-card">
+      <img src="/images/metal_foam_collage.png" alt="Metal Foams" class="project-image">
+      <div class="project-content">
+        <h3 class="project-title">Experimental Work</h3>
+        <p class="project-description">
+          Synchrotron-based tomography and diffraction as well as more conventional materials characterization techniques, combined with numerical simulations.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Diffraction</span>
+          <span class="tag">Laser processing</span>
+          <span class="tag">Nanoindentiation</span>
+          <span class="tag">Microscopy</span>
+          <span class="tag">Synchrotron</span>
+          <span class="tag">Tomography</span>
         </div>
       </div>
     </div>
