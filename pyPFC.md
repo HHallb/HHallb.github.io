@@ -18,6 +18,7 @@ pyPFC is publicly available on [GitHub](https://github.com/HHallb/pyPFC) and via
 
 Further details on PFC modeling and example applications can be found in:
 
+- [K.H Blixt and H. Hallberg, **Inclination-dependent shear-coupling and energy anisotropy in FCC tilt grain boundaries**, *Acta Materialia*, 315:122379, 2026](https://doi.org/10.1016/j.actamat.2026.122379)
 - [H. Hallberg and K.H. Blixt, **pyPFC: an open-source Python package for phase field crystal simulations**, *Modelling and Simulation in Materials Science and Engineering*, 34(1):015004, 2026](https://doi.org/10.1088/1361-651X/ae2599)
 - [K.H. Blixt and H. Hallberg, **Phase Field Crystal Modeling of Grain Boundary Migration: Mobility, Energy and Structural Variability**, *Acta Materialia*, 297:121318, 2025](https://doi.org/10.1016/j.actamat.2025.121318)
 - [H. Hallberg and K.H. Blixt, **Assessing grain boundary variability through phase field crystal simulations**, *Physical Review Materials*, 8(3):113605, 2024](https://doi.org/10.1103/PhysRevMaterials.8.113605)
