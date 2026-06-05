@@ -10,6 +10,7 @@ permalink: /gb_mechanics/
 
 Further details on grain boundary mechanics and modeling and simulation of related phenomena can be found in:
 
+- [K.H Blixt and H. Hallberg, **Inclination-dependent shear-coupling and energy anisotropy in FCC tilt grain boundaries**, *Acta Materialia*, 315:122379, 2026](https://doi.org/10.1016/j.actamat.2026.122379)
 - [K.H. Blixt and H. Hallberg, **Phase Field Crystal Modeling of Grain Boundary Migration: Mobility, Energy and Structural Variability**, *Acta Materialia*, 297:121318, 2025](https://doi.org/10.1016/j.actamat.2025.121318)
 - [H. Hallberg and K.H. Blixt, **Assessing grain boundary variability through phase field crystal simulations**, *Physical Review Materials*, 8(3):113605, 2024](https://doi.org/10.1103/PhysRevMaterials.8.113605)
 - [K.H. Blixt and H. Hallberg, **Phase field crystal modeling of grain boundary structures in diamond cubic systems**, *Physical Review Materials*, 8(3):033606, 2024](https://doi.org/10.1103/PhysRevMaterials.8.033606)
