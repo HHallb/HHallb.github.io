@@ -12,6 +12,7 @@ Synchrotron-based tomography and diffraction as well as more conventional materi
 
 Further details on experimental work and modeling and simulation on materials processing can be found in:
 
+- [I. Tambe and, E. Lacaj, P.A.T. Olsson, H. Hallberg, J. Engqvist, I. N. Orbulov and J. Hektor , **Evaluation of stitching-induced strain uncertainties in extended-field-of-view in situ X-ray tomography**, *Material Characterization*, 240:116852, 2026](https://doi.org/10.1016/j.matchar.2026.116852)
 - [N. Ivarsson, S. Hall, N. Toft, S. Pettersson, H. Hallberg, C.M. Schleputz, V. Novak and J. Engqvist, **In-situ peel test analysis via synchrotron tomography and DVC**, *Tomography of Materials and Structures*, 11:100084, 2026](https://doi.org/10.1016/j.tmater.2026.100084)
 - [I. Tambe, J.E. Maroti, I.N. Orbulov, Z. Hegedus, M. Ziehmer, C.E. Krill III, H. Hallberg, P.A.T. Olsson and J. Hektor, **X-Ray Tomography Analysis of Damage Mechanisms in Metal Matrix Syntactic Foams During Compression**, *Advanced Engineering Materials*, 28(3):e202501499, 2026](https://doi.org/10.1002/adem.202501499)
 - [H. Hallberg, A. Chamanfar and N. Nanninga, **A constitutive model for the flow stress behavior and microstructure evolution in aluminum alloys under hot working conditions - with application to AA6099**, *Applied Mathematical Modelling*, 81C:253-262, 2020](https://doi.org/10.1016/j.apm.2019.12.020)
