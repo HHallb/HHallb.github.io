@@ -12,6 +12,7 @@ Numerical modeling of phase transformations by different approaches.
 
 Further details on modeling and simulation of phase transformations can be found in:
 
+- [E. Jacobsson, H. Hallberg, J. Hektor and M. Ristinmaa, **Microstructure-controlled stress evolution during Cu6⁢Sn5 growth in Sn/Cu coatings**, *Materialia*, 49:102873, 2026](https://doi.org/10.1016/j.mtla.2026.102873)
 - [E. Jacobsson, H. Hallberg, J. Hektor and M. Ristinmaa, **Modelling diffusive phase transformations in multiphase systems using the Voronoi implicit interface method**, *Modelling and Simulation in Materials Science and Engineering*, 33(2):025006, 2025](https://doi.org/10.1088/1361-651X/ada818)
 - [E. Jacobsson, H. Hallberg, J. Hektor, S. Iyengar and M. Ristinmaa, **A level set approach to modeling diffusional phase transformations under finite strains with application to the formation of Cu6Sn5**, *Computational Materials Science*, 244:113284, 2024](https://doi.org/10.1016/j.commatsci.2024.113284)
 - [B. Starman, H. Hallberg, M. Wallin, M. Ristinmaa, N. Mole and M. Halilovic, **Modelling of the Mechanical Response in 304 Austenitic Steel during Laser Shock Peening and Conventional Shot Peening**, *Procedia Manufacturing*, 47:450-457, 2020](https://doi.org/10.1016/j.promfg.2020.04.334)
